@@ -2,14 +2,14 @@
   "expo": {
     "name": "OnlySwim",
     "slug": "OnlySwim",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic_launcher-small.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ic_launcher.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#c2e5ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +22,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/ic_launcher-small.png",
+        "backgroundColor": "#c2e5ff"
+      },
+      "package": "com.l.posa.OnlySwim"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/ic_launcher-small.png"
+    },
+    "description": "Prototype app for OnlySwim app. Still a lot of work to do.",
+    "extra": {
+      "eas": {
+        "projectId": "6f0a50a5-26e4-41e7-bbd5-a7670651be73"
+      }
     }
   }
 }
